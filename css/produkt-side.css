@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: teenage-madness;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
+
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #e6ecf3;
@@ -21,24 +26,26 @@ body {
 }
 
 .logo img {
-    height: 50px;
+    height: 70px;
 }
 
 .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 130px;
+    font-family: teenage-madness;
 }
 
 .nav-links a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
     letter-spacing: 1px;
 }
 
 .ikoner .ikoner1{
-    height: 50px;
+    height: 70px;
+    margin: 30px;
 }
 
 .container{
