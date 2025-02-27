@@ -149,8 +149,9 @@ h1{
     background-color: darkblue;
 }
 
-.produkt-video video{
-    object-fit: cover;
+.videobox video{
+    position: sticky;
+    width: 100%;
 }
 
 .infografik img{
