@@ -11,6 +11,11 @@
     src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     background-image: url(/images/mixbaggrund-groen.png);
     background-position: center;
@@ -20,10 +25,11 @@ body {
 
 .user {
     font-family: tm;
-    font-size: 105px;
+    font-size: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .elm {
@@ -47,14 +53,19 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 40px;
 
 }
 
 .knap {
     font-family: bs;
-    font-size: 70px;
+    font-size: 40px;
     color: black;
-    padding: 25px;
+    background-color: white;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 40px;
 }
 
 
