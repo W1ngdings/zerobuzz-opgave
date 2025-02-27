@@ -25,11 +25,11 @@ body {
 
 .user {
     font-family: tm;
-    font-size: 120px;
+    font-size: 7rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 5rem;
 }
 
 .elm {
@@ -44,8 +44,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-
+    margin-top: 5rem;
 }
 
 .under-elm {
@@ -53,7 +52,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 40px;
 
 }
 
@@ -62,10 +60,10 @@ body {
     font-size: 40px;
     color: black;
     background-color: white;
-    padding: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin: 40px;
+    padding: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin: 3rem;
 }
 
 

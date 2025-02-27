@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 5rem;
 }
 
 .login-container {
@@ -30,6 +30,7 @@
 .login-form {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .p {
@@ -43,16 +44,23 @@
     color: black;
     background-color: white;
     padding: 5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    margin: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    height: 2rem;
 }
 
 .knap{
     font-family: bs;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     background-color: #152A6D;
-    padding: 10rem;
-    width: 10rem;
+    padding: 2rem;
+   margin-top: 2rem;
+    width: 25rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
