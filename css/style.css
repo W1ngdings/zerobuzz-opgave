@@ -3,17 +3,43 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: teenagemadness;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
+
 .videobox {
 width: 100%;
 
-    
+/* video styling */    
 }
 .video {
     object-fit: cover;
     width: 100%;
-    height: 900px;
+    height: 75%;
+    margin: 0;
+    z-index: 2;
+    position: absolute;
 }
 .backgroundslider {
     width: 48rem;
 }
 
+/* slider styling */
+
+.backgroundslider {
+    z-index: 1;
+    margin-top: 40rem;
+    height: 900px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+h2 {
+    font-family: 'teenagemadness';
+}
