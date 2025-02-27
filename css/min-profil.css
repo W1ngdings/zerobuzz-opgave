@@ -7,7 +7,7 @@
     src: url(/fonts/Teenage\ Madness.otf);
 }
 @font-face {
-    font-family: big shoulders display;
+    font-family: bs;
     src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
@@ -20,21 +20,39 @@ body {
 
 .user {
     font-family: tm;
+    font-size: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .elm {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .uper-elm {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .under-elm {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.knap {
+    font-family: bs;
+    font-size: larger;
+    color: black;
+    margin: 10px;
 }
 
 
