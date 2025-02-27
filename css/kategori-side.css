@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #e6ecf3;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -55,7 +60,7 @@ figure {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /*Cirklen fylder hele figure */
+    width: 100%; 
     z-index: 1; /* Baggrunden ligger nederst */
 }
 
@@ -64,8 +69,26 @@ figure {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centrerer øl dåsen */
-    width: 80%; /* Gør øl dåsen mindre */
-    z-index: 2; /* Øl dåsen placeres over cirklen */
+    width: 80%; 
+    z-index: 2; /* Øldåsen er over baggrunden */
 }
 
+#sharingpack {
+    width: 130%;
+}
+
+figcaption {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: teenage-madness;
+}
+
+@font-face {
+    font-family: teenage-madness;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
 
