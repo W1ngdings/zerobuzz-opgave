@@ -31,6 +31,7 @@ section {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 100px;
 }
 
 figure {
@@ -40,4 +41,31 @@ figure {
     background-position: center;
     margin-bottom: 10px;
 }
+
+.baggrund {
+    position: relative; /*Indhold i figure positioneres relativt til den */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; 
+    height: 400px;
+}
+
+.baggrund .cirkel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /*Cirklen fylder hele figure */
+    z-index: 1; /* Baggrunden ligger nederst */
+}
+
+.baggrund img:not(.cirkel) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrerer øl dåsen */
+    width: 80%; /* Gør øl dåsen mindre */
+    z-index: 2; /* Øl dåsen placeres over cirklen */
+}
+
 
