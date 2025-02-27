@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/mixbaggrund-groen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.elm {
+    display: flex;
+    flex-direction: column;
+}
+
+.uper-elm {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.under-elm {
+    display: flex;
+    flex-direction: row;
+}
+
+
