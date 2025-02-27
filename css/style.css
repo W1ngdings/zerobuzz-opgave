@@ -110,8 +110,7 @@ width: 100%;
 .prev {
     position: absolute;
     z-index: 3;
-    left: 2rem;
-    bottom: 5rem;
+    left: 2rem;;
 }
 .previmage {
     height: 5rem;
@@ -134,7 +133,7 @@ width: 100%;
     text-decoration: none;
     background-color: #B4EBCA ;
     font-family: bigshoulder;
-    height: 5rem;
+    height: 3rem;
     width: 10rem;
     font-size: 2rem;
     border-radius: 20px;
@@ -143,10 +142,48 @@ width: 100%;
 
 .talekortbox {
     margin-top: 50rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background-color: ;
 }
 
 
 
 h2 {
     font-family: 'teenagemadness';
+    font-size: 5rem;
+}
+
+h3 {
+    font-family: 'bigshoulder';
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cardbutton {
+position: absolute;
+margin-left: -45rem;
+margin-bottom: -17rem;
+text-decoration: none;
+background-color: #B4EBCA ;
+font-family: bigshoulder;
+height: 3rem;
+width: 10rem;
+font-size: 2rem;
+border-radius: 20px;
+
+}
+
+
+.talekortimagebox {
+display: flex;
+}
+
+
+.talekortimage {
+
 }
