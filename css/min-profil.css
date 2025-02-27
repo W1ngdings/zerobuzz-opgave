@@ -2,11 +2,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: tm;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
+@font-face {
+    font-family: big shoulders display;
+    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+}
 
 body {
     background-image: url(/images/mixbaggrund-groen.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+.user {
+    font-family: tm;
 }
 
 .elm {
@@ -17,7 +30,6 @@ body {
 .uper-elm {
     display: flex;
     flex-direction: row;
-    background-color: aliceblue;
 }
 
 .under-elm {

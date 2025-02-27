@@ -1,17 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 kolonner */
+    grid-template-rows: repeat(3, auto); /* 2 rækker */
+    width: 100%;
+}
+
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
-.zerobuzz #img1 {
-    background-image: url(../images/cirkel-humle.png);
+figure {
+    width: 100%;
+    height: 700px;
     background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
 }
 
