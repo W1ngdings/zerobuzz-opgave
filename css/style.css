@@ -13,6 +13,11 @@
     src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* navbar styling */
 
 .nav-header {
@@ -61,24 +66,84 @@ width: 100%;
     width: 100%;
     margin: 0;
     z-index: 2;
-    position: absolute;
-}
-.backgroundslider {
-    width: 48rem;
 }
 
 /* slider styling */
 
 .backgroundslider {
     z-index: 1;
-    margin-top: 40rem;
     height: 900px;
     width: 100%;
+    position: absolute;
+    
+}
+
+.produktsliderbox {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 10rem;
+}
+
+.produktslider {
+
+    position: absolute;
+    z-index: 4;
+}
+
+.zerobuzz {
+
+    height: 30rem;
+}
+
+.cherrybuzz {
+
+    height: 30rem;
+
+}
+
+.lushlemon {
+    
+    height: 30rem;
+}
+.prev {
+    position: absolute;
+    z-index: 3;
+    left: 2rem;
+    bottom: 5rem;
+}
+.previmage {
+    height: 5rem;
+    width: 5rem;
+}
+
+.next {
+    position: absolute;
+    z-index: 3;
+}
+
+.nextimage {
+    height: 5rem;
+    width: 5rem;
+}
+.selectionbutton {
+    position: absolute;
+    z-index: 3;
+    margin-top: 35rem;
+    text-decoration: none;
+    background-color: #B4EBCA ;
+    font-family: bigshoulder;
+    height: 5rem;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: 20px;
 }
 
 
-
-
+.talekortbox {
+    margin-top: 50rem;
+}
 
 
 
