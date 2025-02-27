@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .uper-elm {
@@ -38,6 +38,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 
 }
 
@@ -46,13 +47,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 
 .knap {
     font-family: bs;
-    font-size: larger;
+    font-size: 70px;
     color: black;
-    margin: 10px;
+    padding: 25px;
 }
 
 
