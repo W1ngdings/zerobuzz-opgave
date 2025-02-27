@@ -1,13 +1,12 @@
 *{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-
 }
-
 
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #e6ecf3;
-    margin: 0;
     align-items: center;
     height: 100vh;
 }
@@ -38,14 +37,8 @@ body {
     letter-spacing: 1px;
 }
 
-.icons {
-    display: flex;
-    gap: 15px;
-}
-
-.icons img {
-    height: 40px;
-    cursor: pointer;
+.ikoner .ikoner1{
+    height: 50px;
 }
 
 .container{
@@ -53,11 +46,11 @@ body {
     max-width: 900px;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .produkt-image{
     width: 200px;
     height: auto;
+    display: block;
 }
 
 .produkt-info{
