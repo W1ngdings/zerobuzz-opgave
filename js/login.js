@@ -1,7 +1,5 @@
 "use strict"
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
     const loginForm = document.querySelector(".login-form");
     const nameInput = document.getElementById("name");
