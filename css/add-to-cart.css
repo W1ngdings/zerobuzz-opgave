@@ -80,29 +80,35 @@ body {
 }
 
 #root {
-    width: 60%;
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 
 .sidebar {
-    width: 40%;
+    width: 30%;
     border-radius: 5px;
     background-color: #54587a;
     padding: 15px;
     text-align: center;
     margin-top: 40px;
+    height: fit-content;
 }
 
 .head {
     background-color: #e6ecf3;
     border-radius: 3px;
-    height: 40px;
     padding: 10px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
+}
+
+.head p {
+    font-family: teenage-madness;
+    font-size: 40px;
+    padding: 10px;
 }
 
 .foot {
@@ -199,6 +205,6 @@ button:hover {
 }
 
 .fa-trash:hover {
-    color: #333;
+    color: #9c2f2f;
     cursor: pointer;
 }
