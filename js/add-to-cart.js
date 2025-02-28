@@ -53,3 +53,32 @@ document.getElementById('root').innerHTML = categories.map((item) =>
     )
  }).join('');
 
+ var cart = [];
+
+function addtocart(a){
+    cart.push({...categories[a]});
+    displaycart();
+}
+
+function displaycart(a){
+    let j = 0;
+    if (cart.length ==0){
+        document.getElementById('cartItem').innerHTML = "Your cart is empty";
+    }
+    else {
+        document.getElementById("cartItem").innerHTML = cart.map((item) => 
+            {
+                var {image, title,price} = item;
+                return (
+                    `<section class='cart-item'>
+                    <section class='row-img'>
+                        <img class='rowing' src=${image}></img>
+                    </section>
+                    <p style = 'font-size:12px;'>${title}</p>
+                    <h2 style = 'font-size:15px;'>${price}.00 €</h2>` +
+                    "<i class = 'fa-solid fa-trash' onclick='delElement(" + (j++)+")'></i></section>"
+                );
+        
+        }).join('');
+    }
+}

@@ -1,4 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+@font-face {
+    font-family: teenage-madness;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
+
+body {
+    background-color: #e6ecf3;
+}
 .nav-header {
     display: flex;
     justify-content: space-between;
@@ -49,8 +62,8 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 22px;
-    background-color: rgb(123, 81, 81);
-    color: white;
+    background-color: #7f94ac;
+    color: rgb(0, 0, 0);
     margin-top: 90px;
 }
 
@@ -75,19 +88,19 @@ body {
 .sidebar {
     width: 40%;
     border-radius: 5px;
-    background-color: rgb(218, 190, 190);
+    background-color: #54587a;
     padding: 15px;
     text-align: center;
     margin-top: 40px;
 }
 
 .head {
-    background-color: rgb(123, 81, 81);
+    background-color: #e6ecf3;
     border-radius: 3px;
     height: 40px;
     padding: 10px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
 }
@@ -117,18 +130,71 @@ body {
 }
 
 .images {
-    width: 60%;
+    width: 50%;
     object-fit: cover;
     object-position: center;
     margin-top: 200px;
 }
 
 .bottom {
-    margin-top:200px;
+    margin-top:190px;
     width:100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: 110px;
 }
+
+h2 {
+    font-size: 20px;
+}
+
+.bottom p {
+    font-family: teenage-madness;
+    font-size: 40px;
+    color: #31386D;
+}
+
+button {
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    background-color: #31386D;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #161a31;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e6ecf3;
+    border-bottom:1px solid #333;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+
+.row-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rowimg {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+}
+
