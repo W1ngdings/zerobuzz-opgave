@@ -198,3 +198,7 @@ button:hover {
     border-radius: 50%;
 }
 
+.fa-trash:hover {
+    color: #333;
+    cursor: pointer;
+}
