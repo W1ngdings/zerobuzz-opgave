@@ -222,3 +222,8 @@ p {
     background-color: #ddd;
     
 }
+
+.footer{
+display: flex;
+
+}
