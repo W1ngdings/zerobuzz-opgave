@@ -1,20 +1,5 @@
 "use strict"
 
-/*
-document.getElementById("login-container").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
-
-    const name = document.getElementById("name").value;
-    localStorage.setItem("username", name); // Store name in LocalStorage
-
-    window.location.href = "min-profil.html"; // Redirect to the welcome page
-});
-
-
-
-const name = localStorage.getItem("username") || "Guest"; 
-        document.getElementById("greeting").textContent = "Hello " + name + "!";
-*/
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -25,26 +10,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (loginForm) {
         loginForm.addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
 
             const userName = nameInput.value.trim();
             const userEmail = emailInput.value.trim();
             const userPassword = passwordInput.value.trim();
 
             if (userName && userEmail && userPassword) {
-                // Save user info to localStorage
+                
                 localStorage.setItem("userName", userName);
                 localStorage.setItem("userEmail", userEmail);
 
-                // Redirect to profile page
-                window.location.href = "min-profil.html"; // Ensure this matches your actual profile page filename
+                
+                window.location.href = "min-profil.html"; 
             } else {
                 alert("Please fill in all fields.");
             }
         });
     }
 
-    // Profile page logic
+    
     const greeting = document.getElementById("greeting");
     if (greeting) {
         const storedName = localStorage.getItem("userName");
