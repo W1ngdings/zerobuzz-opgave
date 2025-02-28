@@ -137,18 +137,20 @@ width: 100%;
     width: 10rem;
     font-size: 2rem;
     border-radius: 20px;
+    border: none;
 }
 
 
 .talekortbox {
-    margin-top: 50rem;
+    margin-top: 45rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: space-between;
     justify-content: space-around;
     align-items: center;
-    background-color: ;
+    background-color: #F0FBF4;
+    height: 50rem;
 }
 
 
@@ -175,6 +177,7 @@ height: 3rem;
 width: 10rem;
 font-size: 2rem;
 border-radius: 20px;
+border: none;
 
 }
 
