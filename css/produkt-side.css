@@ -178,9 +178,9 @@ h1{
     padding: 50px 20px;
     }
 
-.ingredient-1{
+.ingredient1{
     position: absolute;
-    top: 265%;
+    top: 260%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
     width: 40%;
@@ -192,6 +192,58 @@ h1{
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.ingredient2{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9F5F8;
+    border-radius: 1em;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.ingredient3{
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9F5F8;
+    border-radius: 1em;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.ingredient4{
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9F5F8;
+    border-radius: 1em;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.lenis.lenis-smooth{
+    scroll-behavior: auto !important;
 }
 
 
@@ -211,12 +263,45 @@ ingredient {
     max-width: 500px;
 }
 
-.ingredient img {
+.ingredient1 img {
     width: 60px;
     height: 60px;
     margin-right: 15px;
 }
-.ingredient.show {
+
+.ingredient2 img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.ingredient3 img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.ingredient4 img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.ingredient1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ingredient2.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ingredient3.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ingredient4.show {
     opacity: 1;
     transform: translateY(0);
 }
