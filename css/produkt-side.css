@@ -9,6 +9,11 @@
     src: url(/fonts/Teenage\ Madness.otf);
 }
 
+@font-face {
+    font-family: bigshoulder;
+    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #e6ecf3;
@@ -79,9 +84,10 @@ h1{
 }
 
 .p-beskrivelse {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
     text-align: center;
+    font-family: bigshoulder;
 }
 
 .pris {
@@ -89,6 +95,7 @@ h1{
     font-weight: bold;
     margin: 20px 0;
     text-align: center;
+    font-family: bigshoulder;
 }
 
 .pack-options {
@@ -178,6 +185,15 @@ h1{
     padding: 50px 20px;
     }
 
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #5dab7c ;
+    font-family: bigshoulder;
+
+}
+
 .ingredient1{
     position: absolute;
     top: 255%;
@@ -186,11 +202,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E9F5F8;
     border-radius: 1em;
     opacity: 0;
-    transform: translateY(50%);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
 }
 
 .ingredient2{
@@ -201,11 +217,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E9F5F8;
     border-radius: 1em;
     opacity: 0;
-    transform: translateY(50%);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
 }
 
 .ingredient3{
@@ -216,11 +232,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E9F5F8;
     border-radius: 1em;
     opacity: 0;
-    transform: translateY(50%);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
 }
 
 .ingredient4{
@@ -231,11 +247,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E9F5F8;
     border-radius: 1em;
     opacity: 0;
-    transform: translateY(50%);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
 }
 
 .ingredient1 img {
@@ -264,21 +280,25 @@ h1{
 .ingredient1.show {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0px);
 }
 
 .ingredient2.show {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0px);
 }
 
 .ingredient3.show {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0px);
 }
 
 .ingredient4.show {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0px);
 }
 
 .anbefaling-sektion{

@@ -5,13 +5,16 @@ document.addEventListener("DOMContentLoaded", function() {
     
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
-           console.log("Observer registrerer:", entry.target); 
+           console.log(entry) 
             if (entry.isIntersecting) {
-                console.log("Element er synligt:", entry.target);
                 entry.target.classList.add("show");
+            }else{
+                entry.target.classList.remove("show");
            }
         });
-    }, { threshold: 1 });
+    });
+
+    ingredients.forEach((el) => observer.observe(el));
 
     ingredients.forEach(ingredient => observer.observe(ingredient));
 });
