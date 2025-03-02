@@ -1,5 +1,3 @@
-"use strict";
-
 let currentIndex = 0;
 const slides = document.querySelectorAll('.slide');
 const totalSlides = slides.length;
