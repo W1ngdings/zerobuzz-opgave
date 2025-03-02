@@ -58,6 +58,7 @@ a {
 /* video styling */   
 .videobox {
 width: 100%;
+margin-bottom: -0.3rem;
 
  
 }
@@ -74,67 +75,104 @@ width: 100%;
     z-index: 1;
     height: 900px;
     width: 100%;
-    position: absolute;
+    position: relative;
     margin-top: -1rem;
     margin-bottom: 1rem;
     
 }
 
-.produktsliderbox {
+/* slider styling */
 
+.slider-container {
+    position: absolute;
+    width: 100%; /* Adjust the width as needed */
+    margin: 0;
+    overflow: hidden;
+    background-image: url(/images/baggrund-forside.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  
+  .slider {
+    display: flex;
+  }
+  
+  .slide {
+    min-width: 100%; /* Each slide takes the full width */
+    height: auto;
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
-    margin-top: 10rem;
-}
-
-.produktslider {
-
+    align-items: center;
+  }
+  
+  .zeroimage {
+    width: 28%; /* Ensure the images fill the container */
+    height: auto;
     position: absolute;
-    z-index: 4;
-}
+    z-index: 9;
+    margin-top: 46rem;
 
-.zerobuzz {
+  }
 
-    height: 35rem;
-}
-
-.cherrybuzz {
-
-    height: 35rem;
-
-}
-
-.lushlemon {
-    
-    height: 35rem;
-}
-.prev {
+  .cherryimage {
+    width: 28%; /* Ensure the images fill the container */
+    height: auto;
     position: absolute;
-    z-index: 3;
-    left: 12rem;
-    margin-top: 16rem;
-}
-.previmage {
-    height: 5rem;
-    width: 5rem;
-}
+    z-index: 9;
+    margin-top: 46rem;
+  }
 
-.next {
+  .lemonimage {
+    width: 27%; /* Ensure the images fill the container */
+    height: auto;
     position: absolute;
-    z-index: 3;
-    right: 12rem;
-    margin-top: 16rem;
-}
+    z-index: 9;
+    margin-top: 46rem;
+    margin-left: 2rem;
+  }
 
-.nextimage {
-    height: 5rem;
-    width: 5rem;
-}
+  .prev {
+    margin-top: -20rem;
+    left: 70px;
+    position: absolute;
+    top: 80%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+  }
+  
+  .next {
+    margin-top: -20rem;
+    right: 70px;
+    position: absolute;
+    top: 80%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .previmage, .nextimage  {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .slidercirkel {
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    width: 37rem;
+    height: 37rem;
+    z-index: -1;
+  }
+  
 .selectionbutton {
     position: absolute;
     z-index: 3;
-    margin-top: 37rem;
+    margin-top: 42rem;
     text-decoration: none;
     background-color: #B4EBCA ;
     font-family: bigshoulder;
@@ -143,6 +181,7 @@ width: 100%;
     font-size: 2rem;
     border-radius: 20px;
     border: none;
+    left: 45.5%;
 }
 
 /* talekort styling */
