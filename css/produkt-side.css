@@ -164,11 +164,11 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url('/images/infografik-baggrund.png')center/contain no-repeat;
-    background-size: 80%;
+    background: url('/images/ny-baggrund.png')center/contain no-repeat;
+    background-size: 100%;
     background-position: center top;
     color: white;
-    background-color: #E9F5F8
+    background-color: #E9F5F8;
 }
 
 .infografik-elemeter {
@@ -178,7 +178,24 @@ h1{
     padding: 50px 20px;
     }
 
-.ingredient {
+.ingredient-1{
+    position: absolute;
+    top: 265%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9F5F8;
+    border-radius: 1em;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+
+ingredient {
     display: flex;
     align-items: center;
     justify-content: center;
