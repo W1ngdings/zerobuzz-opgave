@@ -90,8 +90,9 @@ margin-bottom: -0.3rem;
     overflow: hidden;
     background-image: url(/images/baggrund-forside.png);
     height: 750px;
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
   }
   
   .slider {
@@ -157,6 +158,15 @@ margin-bottom: -0.3rem;
   .previmage, .nextimage  {
     height: 7rem;
     width: 7rem;
+  }
+
+  .slidercirkel {
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    width: 37rem;
+    height: 37rem;
+    z-index: -1;
   }
   
 .selectionbutton {
