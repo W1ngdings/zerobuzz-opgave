@@ -90,7 +90,7 @@ h1{
     font-family: bigshoulder;
 }
 
-.pris {
+.price {
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0;
@@ -149,7 +149,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-weight: bold;
 }
 
 .add-to-cart:hover {
@@ -185,7 +185,7 @@ h1{
     padding: 50px 20px;
     }
 
-h2{
+h3{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
