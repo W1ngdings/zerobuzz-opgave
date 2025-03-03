@@ -8,7 +8,7 @@ const product = [
     { id: 4, image: "images/kortaeske-mockups.png", title: "Ice Breakers", price: 10 }
 ];
 
-const categories = [...new Set(product)];
+const categories = product;
 let i = 0;
 
 document.getElementById('root').innerHTML = categories.map((item) => {
@@ -76,10 +76,7 @@ function displaycart() {
     }
 }
 
-// Tilføjer en checkout-knap i sidebar
-document.querySelector(".sidebar").innerHTML += `
-    <button id="checkoutButton">Checkout</button>
-`;
+
 
 document.getElementById("checkoutButton").addEventListener("click", function() {
     if (cart.length > 0) { // Hvis der er noget i kurven
@@ -87,7 +84,7 @@ document.getElementById("checkoutButton").addEventListener("click", function() {
         cart = []; // Tømmer kurven når man checker ud
         displaycart();
     } else {
-        alert("Your cart is empty. Choose a product and enjoy the taste of good non-alchoholic beer;)");// Hvis kurven er tom
+        alert("Your cart is empty. Choose a product and enjoy the taste of fantastic non-alcoholic beer;)");// Hvis kurven er tom
     }
 });
 

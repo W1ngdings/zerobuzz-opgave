@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding: 10px 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
@@ -107,12 +108,12 @@ body {
     padding: 20px;
     height: fit-content;
     text-align: center;
-    display: none; /* Skjul kurven */
+    display: none; /* Skjuler kurven */
 }
 
 
 .sidebar.active {
-    display: block; /* Vis kurven, når klassen er aktiv */
+    display: block; /* Viser kurven, når klassen er aktiv */
 }
 
 
@@ -231,7 +232,6 @@ button:hover {
 }
 
 
-
 .footer{
     display: flex;
     justify-content: space-between;
@@ -240,44 +240,46 @@ button:hover {
     padding: 20px 50px;
     border-top: 2px solid #ccc;
     margin-top: 20px;
+    width: 100%;
     }
     
-    .footer-sektion{
-    text-align: center;
-    flex: 1;
-    }
-    
-    .footer-sektion h1{
-        font-size: 50px;
-    }
-    
-    .footer-sektion p {
-        font-size: 16px;
-        margin: 5px 0;
-    }
-    
-    .icon{
-        width: 60px;
-        height: auto;
-        margin-top: 7px;
-    }
-    
-    
-    .social-icons img{
-        width: 70px;    
-        margin: 5px;
-    }
-    
-    .payment-icon img{
-        width: 270px;
-        margin: 5px;
-    }
-    
-    .footer-logo img{
-        width: 200px;
-        margin: 5px;
-    }
-    
+.footer-sektion{
+text-align: center;
+}
+
+.footer-sektion h1{
+    font-size: 50px;
+    font-family: teenage-madness;
+    color: #31386D;
+}
+
+.footer-sektion p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.icon{
+    width: 60px;
+    height: auto;
+    margin-top: 7px;
+}
+
+
+.social-icons img{
+    width: 70px;    
+    margin: 5px;
+}
+
+.payment-icon img{
+    width: 270px;
+    margin: 5px;
+}
+
+.footer-logo img{
+    width: 200px;
+    margin: 5px;
+}
+
 #checkoutButton {
     width: 100%; 
     padding: 10px; 
