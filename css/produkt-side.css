@@ -365,6 +365,10 @@ p {
     
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .footer{
 display: flex;
 justify-content: space-between;
