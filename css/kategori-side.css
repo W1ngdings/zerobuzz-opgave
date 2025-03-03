@@ -66,11 +66,20 @@ main {
     align-items: center;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 kolonner */
-    grid-template-rows: repeat(3, auto); /* 2 rækker */
+.container-kurv {
+    display: flex;
     width: 100%;
+    margin-bottom: 30px;
+}
+
+#wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: start;
+    align-content: space-evenly;
+    justify-items: center;
 }
 
 section {
