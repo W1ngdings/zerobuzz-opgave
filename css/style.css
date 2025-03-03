@@ -196,6 +196,7 @@ margin-bottom: -0.3rem;
     align-items: center;
     background-color: #F0FBF4;
     height: 50rem;
+    margin-bottom: -1.3rem;
 }
 
 
@@ -292,4 +293,13 @@ html {
       width: 200px;
       margin: 5px;
   }
+
+  h1 {
+    font-family: teenagemadness;
+    color: #31386D;
+}
+
+  h2 {
+    font-family: bigshoulder;
+}
   
