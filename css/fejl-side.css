@@ -3,6 +3,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: teenagemadness;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
+
+@font-face {
+    font-family: bigshoulder;
+    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
 /* navbar styling */
 
 .nav-header {
@@ -92,4 +102,13 @@
     .footer-logo img{
         width: 200px;
         margin: 5px;
+    }
+
+    h1 {
+        font-family: teenagemadness;
+        color: #31386D;
+    }
+
+    h2 {
+        font-family: bigshoulder;
     }
