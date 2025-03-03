@@ -73,6 +73,10 @@ body {
     justify-content: center;
 }
 
+.cart:hover {
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -80,20 +84,37 @@ body {
 }
 
 #root {
-    width: 70%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: start;
+    align-content: space-evenly;
+    justify-items: center;
 }
 
+
+
 .sidebar {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    width: 300px;
+    background-color: #54587a;
     width: 30%;
     border-radius: 5px;
-    background-color: #54587a;
-    padding: 15px;
-    text-align: center;
-    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     height: fit-content;
+    text-align: center;
+    display: none; /* Skjul kurven */
 }
+
+
+.sidebar.active {
+    display: block; /* Vis kurven, når klassen er aktiv */
+}
+
 
 .head {
     background-color: #e6ecf3;
@@ -208,53 +229,3 @@ button:hover {
     color: #9c2f2f;
     cursor: pointer;
 }
-
-
-
-
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 20px 50px;
-    border-top: 2px solid #ccc;
-    margin-top: 20px;
-    }
-    
-    .footer-sektion{
-    text-align: center;
-    flex: 1;
-    }
-    
-    .footer-sektion h1{
-        font-size: 50px;
-    }
-    
-    .footer-sektion p {
-        font-size: 16px;
-        margin: 5px 0;
-    }
-    
-    .icon{
-        width: 60px;
-        height: auto;
-        margin-top: 7px;
-    }
-    
-    
-    .social-icons img{
-        width: 70px;    
-        margin: 5px;
-    }
-    
-    .payment-icon img{
-        width: 270px;
-        margin: 5px;
-    }
-    
-    .footer-logo img{
-        width: 200px;
-        margin: 5px;
-    }
-    

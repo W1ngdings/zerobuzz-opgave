@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: teenage-madness;
+    src: url(/fonts/Teenage\ Madness.otf);
+}
 
+body {
+    background-color: #e6ecf3;
+}
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .logo img {
@@ -32,9 +39,20 @@
     letter-spacing: 1px;
 }
 
-.ikoner .ikoner1{
+.ikoner img{
     height: 70px;
     margin: 30px;
+}
+
+.ikoner {
+    display: flex;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main {
@@ -117,11 +135,6 @@ figcaption {
 h2 {
     font-size: 3rem;
     margin-bottom: 10px;
-    font-family: teenage-madness;
 }
 
-@font-face {
-    font-family: teenage-madness;
-    src: url(/fonts/Teenage\ Madness.otf);
-}
 

@@ -91,3 +91,21 @@ function displaycart(a){
         }).join('');
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const cartIcon = document.querySelector(".cart"); // Kurv-ikon
+    const cartSidebar = document.querySelector(".sidebar"); // Selve kurven
+
+    // Toggle kurven, når man klikker på kurv-ikonet
+    cartIcon.addEventListener("click", function (event) {
+        cartSidebar.classList.toggle("active");
+        event.stopPropagation(); // Forhindrer klik-eventet i at sprede sig
+    });
+
+    // Luk kurven, hvis der klikkes udenfor den
+    document.addEventListener("click", function (event) {
+        if (!cartSidebar.contains(event.target) && !cartIcon.contains(event.target)) {
+            cartSidebar.classList.remove("active");
+        }
+    });
+});
