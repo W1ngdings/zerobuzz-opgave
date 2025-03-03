@@ -64,10 +64,10 @@ function displaycart() {
                     <section class='row-img'>
                         <img class='rowimg' src="${item.image}">
                     </section>
-                    <p style='font-size:12px;'>${item.title}</p>
-                    <h2 style='font-size:15px;'>€${item.price * item.quantity}.00</h2>
+                    <p class="kurv-p" >${item.title}</p>
+                    <h2 class="kurv-h2" >€${item.price * item.quantity}.00</h2>
                     <button class="knapper" onclick='updateQuantity(${item.id}, -1)'>-</button>
-                    <span>${item.quantity}</span>
+                    <section class="luft">${item.quantity}</section>
                     <button class="knapper" onclick='updateQuantity(${item.id}, 1)'>+</button>
                     <i class='fa-solid fa-trash' onclick='updateQuantity(${item.id}, -item.quantity)'></i>
                 </section>`;
@@ -82,10 +82,15 @@ document.querySelector(".sidebar").innerHTML += `
 `;
 
 document.getElementById("checkoutButton").addEventListener("click", function() {
-    alert("Proceeding to checkout!");
-    cart = []; // Tømmer kurven når man checker ud
-    displaycart();
+    if (cart.length > 0) { // Hvis der er noget i kurven
+        alert("Continue to checkout!");
+        cart = []; // Tømmer kurven når man checker ud
+        displaycart();
+    } else {
+        alert("Your cart is empty. Choose a product and enjoy the taste of good non-alchoholic beer;)");// Hvis kurven er tom
+    }
 });
+
 
 // Sidebar toggle
 document.addEventListener("DOMContentLoaded", function () {

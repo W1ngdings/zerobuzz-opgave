@@ -290,5 +290,10 @@ button:hover {
     background-color: #31386D;
 }
 
+.kurv-p {
+    font-size:12px;
+}
 
-
+.kurv-h2 {
+    font-size:20px;
+}
