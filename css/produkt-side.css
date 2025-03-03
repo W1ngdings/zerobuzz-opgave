@@ -64,6 +64,19 @@ body {
     height: auto;
     display: flex;
     align-items: center;
+    position: absolute;
+}
+
+.hover-img {
+    opacity: 0;
+}
+
+.produkt-image:hover .hover-img {
+    opacity: 1;
+}
+
+.produkt-image:hover .default-img {
+    opacity: 0;
 }
 
 .produkt-image{
