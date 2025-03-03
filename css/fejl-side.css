@@ -38,8 +38,58 @@
 }
 
 
-body {
-    background-image: url(/images/fejlside-baggrund.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.fejlbaggrund {
+    width: 1440px;
+    height: 800px;
+    margin-bottom: -1rem;
 }
+
+.fejlimage {
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+    border-top: 2px solid #ccc;
+    }
+    
+    .footer-sektion{
+    text-align: center;
+    flex: 1;
+    }
+    
+    .footer-sektion h1{
+        font-size: 50px;
+    }
+    
+    .footer-sektion p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    
+    .icon{
+        width: 60px;
+        height: auto;
+        margin-top: 7px;
+    }
+    
+    
+    .social-icons img{
+        width: 70px;    
+        margin: 5px;
+    }
+    
+    .payment-icon img{
+        width: 270px;
+        margin: 5px;
+    }
+    
+    .footer-logo img{
+        width: 200px;
+        margin: 5px;
+    }
