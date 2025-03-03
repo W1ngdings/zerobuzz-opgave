@@ -240,3 +240,56 @@ display: flex;
     margin-top: 5rem;
     margin-right: 5rem;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 50px;
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
+  }
+  
+  .footer-sektion{
+  text-align: center;
+  flex: 1;
+  }
+  
+  .footer-sektion h1{
+      font-size: 50px;
+  }
+  
+  .footer-sektion p {
+      font-size: 16px;
+      margin: 5px 0;
+  }
+  
+  .icon{
+      width: 60px;
+      height: auto;
+      margin-top: 7px;
+  }
+  
+  
+  .social-icons img{
+      width: 70px;    
+      margin: 5px;
+  }
+  
+  .payment-icon img{
+      width: 270px;
+      margin: 5px;
+  }
+  
+  .footer-logo img{
+      width: 200px;
+      margin: 5px;
+  }
+  
