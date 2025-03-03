@@ -263,10 +263,6 @@ html {
   flex: 1;
   }
   
-  .footer-sektion h1{
-      font-size: 50px;
-  }
-  
   .footer-sektion p {
       font-size: 16px;
       margin: 5px 0;
@@ -295,7 +291,10 @@ html {
   }
 
   h1 {
+    font-size: 50px;
+    font-weight: bold;
     font-family: teenagemadness;
+    text-align: center;
     color: #31386D;
 }
 
