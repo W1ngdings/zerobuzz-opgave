@@ -92,14 +92,21 @@ document.addEventListener("DOMContentLoaded", function () {
     const cartIcon = document.querySelector(".cart");
     const cartSidebar = document.querySelector(".sidebar");
 
+    // Toggle kurven, når man klikker på kurv-ikonet
     cartIcon.addEventListener("click", function (event) {
         cartSidebar.classList.toggle("active");
         event.stopPropagation();
     });
 
+    // Luk kurven, hvis der klikkes udenfor både kurv-ikonet og sidebar
     document.addEventListener("click", function (event) {
         if (!cartSidebar.contains(event.target) && !cartIcon.contains(event.target)) {
             cartSidebar.classList.remove("active");
         }
+    });
+
+     // Forhindrer lukning, hvis der klikkes inden i sidebar
+     cartSidebar.addEventListener("click", function (event) {
+        event.stopPropagation(); // Forhindrer lukning, når man klikker inden i sidebaren
     });
 });
