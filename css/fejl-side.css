@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar styling */
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 130px;
+    font-family: teenagemadness;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.ikoner .ikoner1{
+    height: 70px;
+    margin: 30px;
+}
+
+
+body {
+    background-image: url(/images/fejlside-baggrund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
