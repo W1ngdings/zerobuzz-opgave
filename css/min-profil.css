@@ -17,8 +17,8 @@ a {
 }
 
 body {
-    background-image: url(/images/mixbaggrund-groen.png);
-    background-position: center;
+    background-image: url(/images/sekundaerlogo-baggrund.jpg);
+    background-position: fixed;
     background-repeat: no-repeat;
 }
 
