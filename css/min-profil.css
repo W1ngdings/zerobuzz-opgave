@@ -64,6 +64,60 @@ body {
     padding-left: 8rem;
     padding-right: 8rem;
     margin: 3rem;
+    border-radius: 5px;
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: row;
+    }
+    
+.footer-sektion{
+text-align: center;
+}
+
+.footer-sektion h1{
+    font-size: 50px;
+    font-family: teenage-madness;
+    color: #31386D;
+}
+
+.footer-sektion p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.icon{
+    width: 60px;
+    height: auto;
+    margin-top: 7px;
+}
+
+
+.social-icons img{
+    width: 70px;    
+    margin: 5px;
+}
+
+.payment-icon img{
+    width: 270px;
+    margin: 5px;
+}
+
+.footer-logo img{
+    width: 200px;
+    margin: 5px;
+}

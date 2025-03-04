@@ -1,80 +1,63 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
+
 @font-face {
-    font-family: tm;
+    font-family: teenagemadness;
     src: url(/fonts/Teenage\ Madness.otf);
 }
+
 @font-face {
-    font-family: bs;
+    font-family: bigshoulder;
     src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
-.login {
-    font-family: tm;
-    font-size: 7rem;
+/* navbar styling */
+
+.nav-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.p {
-    font-family: bs;
-    font-size: 1.5rem;
-}
-
-.ph{
-    font-family: bs;
-    font-size: 1.2rem;
-    color: black;
+    padding: 10px 50px;
     background-color: white;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 20rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: 3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.knap{
-    font-family: bs;
-    font-size: 2rem;
-    color: white;
-    background-color: #152A6D;
-    width: 22rem;
-    height: 3rem;
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 130px;
+    font-family: teenagemadness;
 }
 
-.knap-2 {
-    margin-left: 3.5rem;
-    margin-bottom: 7rem;
-
+.nav-links a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
 }
 
-html {
-    scroll-behavior: smooth;
+.ikoner .ikoner1{
+    height: 70px;
+    margin: 30px;
 }
 
 
+.fejlbaggrund {
+    width: 1440px;
+    height: 800px;
+    margin-bottom: -1rem;
+}
+
+.fejlimage {
+    width: 100%;
+    height: auto;
+}
 
 .footer{
     display: flex;
@@ -83,7 +66,6 @@ html {
     background-color: white;
     padding: 20px 50px;
     border-top: 2px solid #ccc;
-    margin-top: 20px;
     }
     
     .footer-sektion{
@@ -121,4 +103,12 @@ html {
         width: 200px;
         margin: 5px;
     }
-    
+
+    h1 {
+        font-family: teenagemadness;
+        color: #31386D;
+    }
+
+    h2 {
+        font-family: bigshoulder;
+    }

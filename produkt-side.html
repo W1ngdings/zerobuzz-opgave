@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zero Buzz Øl</title>
     <link rel="stylesheet" href="css/produkt-side.css">
+    <link rel="icon" href="images/favicon-32x32.png">
 </head>
 <body>
     <header class="nav-header">
@@ -15,7 +16,7 @@
 
         <nav class="nav-links">
             <a href="kategori-side.html">SELECTION</a>
-            <a href="#">CONTACT</a>
+            <a href="#contact-section">CONTACT</a>
         </nav>
 
         <section class="ikoner">
@@ -30,14 +31,15 @@
 
     <section class="container">
         <section class="produkt-image">
-        <img src="images/zero-buzz-oel.png" alt="Zero Buzz Can">
+        <img src="images/zero-buzz-oel.png" class="produkt-img" alt="Zero Buzz Can">
+        <img src="/images/zero-buzz-bagside.png" class="hover-img" alt="Hover billede">
         </section>
     
         <section class="produkt-info">
             <h1>ZERO BUZZ </h1>
             <p class="p-beskrivelse"> Enjoy the full-bodied taste of premium beer without the buzz. Refreshing, crisp, and perfect for 
                 any occasion. Find Zero Buzz at select retailers, bars, and online.</p>
-            <p class="pris">3€</p>
+            <p class="price">15€</p>
 
             <section class="pack-options">
                 <button class="packs">6-pack</button>
@@ -49,9 +51,12 @@
             <section class="antal-options">
                 <button class="antal">-</button>
                 <button class="antal">+</button>
+                <section class="button-container">
+                    <button class="see-more">ADD TO CARD</button>
+                </section>
             </section>
 
-            <button class="add-to-cart">Add to cart</button>
+            
 
         </section>
 </section>
@@ -62,23 +67,20 @@
     </video>
 </section>
 
-<section class="infografik">
-    <img src="/images/infografik-baggrund" alt="Zero buzz øl dåse i vand splash">
-</section>
+
+<section class="container-1">
+    <h1>ZERO BUZZ BREW</h1>
+    <H3>Non-alcoholic beer</H3>
+    </section>
 
 <section class="infografik-elemeter">
-    <h1>ZERO BUZZ BREW</h1>
-    <H2>Non-alcoholic beer</H2>
-    <H2>WATER</H2>
-    <H2>YEAST</H2>
-    <H2>GRAIN</H2>
-    <H2>MALT</H2>
-
-    <img src="/images/vand-ikon.png" alt="Vand ikon">
-    <img src="/images/pletter-ikon.png" alt="Yeast ikon">
-    <img src="/images/korn-ikon.png" alt="Korn ikon">
-    <img src="/images/malt-ikon.png" alt="Malt ikon">
+    <section class="ingredient1"><img src="/images/vand-ikon.png" alt="Water"><h1>Water</h1></section>
+    <section class="ingredient2"><img src="/images/korn-ikon.png" alt="Crain"><h1>Hops</h1></section>
+    <section class="ingredient3"><img src="/images/malt-ikon.png" alt="Malt"><h1>Barley</h1></section>
+    <section class="ingredient4"><img src="/images/pletter-ikon.png" alt="Yeast"><h1>Yeast</h1></section>
 </section>
+
+<script src="/js/infografik.js"></script>
 
 <section class="anbefaling-sektion">
     <section class="text-content">
@@ -97,7 +99,7 @@
 </section>
 </main>
 
-<footer class="footer">
+<footer class="footer" id="contact-section">
     <section class="footer-sektion">
         <h1>Contact</h1>
         <h2>+45 29 81 79 76</h2>
@@ -123,7 +125,7 @@
     </section>
 
     <section class="footer-logo">
-        <img src="/images/sekundaer-logo.png" alt="Zero Buzz Logo">
+        <a href="index.html"><img src="/images/sekundaer-logo.png" alt="Zero Buzz Logo"></a>
     </section>
 
 </footer>

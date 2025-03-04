@@ -9,6 +9,11 @@
     src: url(/fonts/Teenage\ Madness.otf);
 }
 
+@font-face {
+    font-family: bigshoulder;
+    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #e6ecf3;
@@ -59,6 +64,19 @@ body {
     height: auto;
     display: flex;
     align-items: center;
+    position: absolute;
+}
+
+.hover-img {
+    opacity: 0;
+}
+
+.produkt-image:hover .hover-img {
+    opacity: 1;
+}
+
+.produkt-image:hover .default-img {
+    opacity: 0;
 }
 
 .produkt-image{
@@ -79,16 +97,18 @@ h1{
 }
 
 .p-beskrivelse {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
     text-align: center;
+    font-family: bigshoulder;
 }
 
-.pris {
+.price {
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0;
     text-align: center;
+    font-family: bigshoulder;
 }
 
 .pack-options {
@@ -142,7 +162,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-weight: bold;
 }
 
 .add-to-cart:hover {
@@ -157,6 +177,141 @@ h1{
 .infografik img{
     display: block;
 
+}
+
+.container-1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url('/images/ny-baggrund.png')center/contain no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    color: white;
+    background-color: #E9F5F8;
+}
+
+.infografik-elemeter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    }
+
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #5dab7c ;
+    font-family: bigshoulder;
+
+}
+
+.ingredient1{
+    position: absolute;
+    top: 255%;
+    left: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+
+.ingredient2{
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+
+.ingredient3{
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+
+.ingredient4{
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+
+.ingredient1 img {
+    width: 95px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.ingredient2 img {
+    width: 95px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.ingredient3 img {
+    width: 95px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.ingredient4 img {
+    width: 95px;
+    height: 100px;
+    margin-right: 15px;
+}
+.ingredient1.show {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+}
+
+.ingredient2.show {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+}
+
+.ingredient3.show {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+}
+
+.ingredient4.show {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
 }
 
 .anbefaling-sektion{
@@ -223,6 +378,10 @@ p {
     
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .footer{
 display: flex;
 justify-content: space-between;
@@ -235,7 +394,6 @@ margin-top: 20px;
 
 .footer-sektion{
 text-align: center;
-flex: 1;
 }
 
 .footer-sektion h1{
@@ -268,3 +426,4 @@ flex: 1;
     width: 200px;
     margin: 5px;
 }
+
