@@ -64,6 +64,7 @@ body {
     padding-left: 8rem;
     padding-right: 8rem;
     margin: 3rem;
+    border-radius: 5px;
 }
 
 
@@ -80,6 +81,8 @@ html {
     padding: 20px 50px;
     border-top: 2px solid #ccc;
     margin-top: 20px;
+    width: 100%;
+    flex-direction: row;
     }
     
     .footer-sektion{

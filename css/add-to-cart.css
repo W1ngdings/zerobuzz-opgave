@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding: 10px 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
@@ -107,12 +108,12 @@ body {
     padding: 20px;
     height: fit-content;
     text-align: center;
-    display: none; /* Skjul kurven */
+    display: none; /* Skjuler kurven */
 }
 
 
 .sidebar.active {
-    display: block; /* Vis kurven, når klassen er aktiv */
+    display: block; /* Viser kurven, når klassen er aktiv */
 }
 
 
@@ -231,7 +232,6 @@ button:hover {
 }
 
 
-
 .footer{
     display: flex;
     justify-content: space-between;
@@ -240,6 +240,7 @@ button:hover {
     padding: 20px 50px;
     border-top: 2px solid #ccc;
     margin-top: 20px;
+    width: 100%;
     }
     
     .footer-sektion{
@@ -291,5 +292,10 @@ button:hover {
     background-color: #31386D;
 }
 
+.kurv-p {
+    font-size:12px;
+}
 
-
+.kurv-h2 {
+    font-size:20px;
+}
