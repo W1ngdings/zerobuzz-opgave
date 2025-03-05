@@ -322,8 +322,9 @@ h3{
 }
 
 .text-content {
-    text-align: left;
-    width: 60%;
+    text-align: center;
+    width: 70%;
+    margin-left: -140px;
 }
 
 
@@ -373,6 +374,7 @@ p {
     justify-content: center;
     display: flex;
     font-family: bigshoulder;
+    text-decoration: none;
 }
 
 .see-more:hover {
