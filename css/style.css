@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: teenagemadness;
-    src: url(/fonts/Teenage\ Madness.otf);
+    src: url(/fonts/teenage\ madness.otf);
 }
 
 @font-face {
     font-family: bigshoulder;
-    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+    src: url(/fonts/bigshouldersdisplay-variablefont_wght.ttf);
 }
 
 a {
