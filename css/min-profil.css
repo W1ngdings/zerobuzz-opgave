@@ -123,12 +123,13 @@ html {
     }
     
     .footer-sektion h1{
-        font-size: 59px;
-        font-family: teenage-madness;
+        font-size: 50px;
+        font-family: tm;
+        color: #31386D;;
     }
     
     .footer-sektion h2 {
-        font-size: 16px;
+        font-size: 23px;
         margin: 5px 0;
         font-family: bs;
     }
