@@ -176,12 +176,12 @@ margin-bottom: -0.3rem;
     text-decoration: none;
     background-color: #B4EBCA ;
     font-family: bigshoulder;
-    height: 3rem;
-    width: 10rem;
-    font-size: 2rem;
+    height: 4rem;
+    width: 14rem;
+    font-size: 2.5rem;
     border-radius: 20px;
     border: none;
-    left: 45.5%;
+    left: 43%;
 }
 
 /* talekort styling */
@@ -266,6 +266,7 @@ html {
   .footer-sektion p {
       font-size: 16px;
       margin: 5px 0;
+      font-family: bigshoulder;
   }
   
   .icon{

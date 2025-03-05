@@ -15,7 +15,6 @@
 }
 
 body {
-    font-family:'Times New Roman', Times, serif;
     background-color: #e6ecf3;
     align-items: center;
     height: 100vh;
@@ -64,6 +63,19 @@ body {
     height: auto;
     display: flex;
     align-items: center;
+    position: absolute;
+}
+
+.hover-img {
+    opacity: 0;
+}
+
+.produkt-image:hover .hover-img {
+    opacity: 1;
+}
+
+.produkt-image:hover .default-img {
+    opacity: 0;
 }
 
 .produkt-image{
@@ -319,6 +331,8 @@ p {
     font-size: 16px;
     color: #333;
     text-align: center;
+    font-family: bigshoulder;
+    font-size: 25px;
 }
 
 .produkt-image {
@@ -352,12 +366,13 @@ p {
 .see-more {
     background-color: #31386D;
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 26px;
     cursor: pointer;
     border-radius: 5px;
     color: white;
     justify-content: center;
     display: flex;
+    font-family: bigshoulder;
 }
 
 .see-more:hover {
@@ -381,7 +396,6 @@ margin-top: 20px;
 
 .footer-sektion{
 text-align: center;
-flex: 1;
 }
 
 .footer-sektion h1{
@@ -391,6 +405,7 @@ flex: 1;
 .footer-sektion p {
     font-size: 16px;
     margin: 5px 0;
+    font-family: bigshoulder;
 }
 
 .icon{

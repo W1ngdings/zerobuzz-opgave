@@ -17,8 +17,8 @@ a {
 }
 
 body {
-    background-image: url(/images/mixbaggrund-groen.png);
-    background-position: center;
+    background-image: url(/images/sekundaerlogo-baggrund.jpg);
+    background-position: fixed;
     background-repeat: no-repeat;
 }
 
@@ -64,6 +64,7 @@ body {
     padding-left: 8rem;
     padding-right: 8rem;
     margin: 3rem;
+    border-radius: 5px;
 }
 
 
@@ -80,6 +81,8 @@ html {
     padding: 20px 50px;
     border-top: 2px solid #ccc;
     margin-top: 20px;
+    width: 100%;
+    flex-direction: row;
     }
     
     .footer-sektion{
@@ -94,6 +97,7 @@ html {
     .footer-sektion p {
         font-size: 16px;
         margin: 5px 0;
+        font-family: bigshoulder;
     }
     
     .icon{

@@ -11,6 +11,10 @@
     src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
+body {
+    background-image: url(/images/sekundaerlogo-baggrund.jpg);
+}
+
 .login {
     font-family: tm;
     font-size: 7rem;
@@ -36,6 +40,7 @@
 .p {
     font-family: bs;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .ph{
@@ -50,6 +55,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     height: 3rem;
+    border-radius: 5px;
 }
 
 .knap{
@@ -62,6 +68,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    margin-top: 30px;
 }
 
 .knap-2 {
@@ -98,6 +106,7 @@ html {
     .footer-sektion p {
         font-size: 16px;
         margin: 5px 0;
+        font-family: bigshoulder;
     }
     
     .icon{
