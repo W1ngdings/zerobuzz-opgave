@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     setTimeout(() => {
-        popup.style.display = "block"; // Viser popuppen efter 5 sekunder
-    }, 5000);
+        popup.style.display = "block"; 
+    }, 3000); // Viser popuppen efter 3 sekunder
 });
+
+
