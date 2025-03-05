@@ -19,7 +19,7 @@ document.getElementById('root').innerHTML = categories.map((item) => {
             </section>
             <section class='bottom'>
                 <p>${item.title}</p>
-                <h2> 6-pack, ${item.price}.00 €</h2>
+                <h2 class="six-pack-pris" > 6-pack, ${item.price}.00 €</h2>
                 <button onclick='addtocart(${i++})'>Add to cart</button>
             </section>
         </section>`;

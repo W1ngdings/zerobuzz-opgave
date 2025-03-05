@@ -198,6 +198,8 @@ button {
     padding: 7px 25px;
     cursor: pointer;
     color: white;
+    font-family: bigshoulder;
+    font-size: 25px;
 }
 
 button:hover {
@@ -213,6 +215,16 @@ button:hover {
     border-bottom:1px solid #333;
     border-radius: 3px;
     margin: 10px 10px;
+}
+
+#cartItem {
+    font-family: bigshoulder;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: bigshoulder;
+    font-size: 30px;
 }
 
 .row-img {
@@ -247,49 +259,51 @@ button:hover {
     margin-top: 20px;
     width: 100%;
     }
-    
-    .footer-sektion{
-    text-align: center;
-    flex: 1;
-    }
-    
-    .footer-sektion h1{
-        font-size: 50px;
-        font-family: teenage-madness;
-    }
-    
-    .footer-sektion h2 {
-        font-size: 16px;
-        margin: 5px 0;
-        font-family: bigshoulder;
-    }
-    
-    .icon{
-        width: 60px;
-        height: auto;
-        margin-top: 7px;
-    }
-    
-    
-    .social-icons img{
-        width: 70px;    
-        margin: 5px;
-    }
-    
-    .payment-icon img{
-        width: 270px;
-        margin: 5px;
-    }
-    
-    .footer-logo img{
-        width: 200px;
-        margin: 5px;
-    }
-    
+
+.footer-sektion{
+text-align: center;
+flex: 1;
+}
+
+.footer-sektion h1{
+    font-size: 50px;
+    font-family: teenage-madness;
+    color: #31386D;
+}
+
+.footer-sektion h2 {
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: bigshoulder;
+}
+
+.icon{
+    width: 60px;
+    height: auto;
+    margin-top: 7px;
+}
+
+
+.social-icons img{
+    width: 70px;    
+    margin: 5px;
+}
+
+.payment-icon img{
+    width: 270px;
+    margin: 5px;
+}
+
+.footer-logo img{
+    width: 200px;
+    margin: 5px;
+}
+
 #checkoutButton {
     width: 100%; 
     padding: 10px; 
     margin-top: 10px;
+    font-family: bigshoulder;
 }
 
 .knapper {
@@ -345,4 +359,10 @@ button:hover {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+}
+
+.six-pack-pris {
+    font-size: 20px;
+    font-family: bigshoulder;
+    margin-bottom: 10px;
 }
