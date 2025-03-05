@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: teenagemadness;
-    src: url(/fonts/Teenage\ Madness.otf);
+    src: url(/fonts/teenage\ madness.otf);
 }
 
 @font-face {
     font-family: bigshoulder;
-    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+    src: url(/fonts/bigshouldersdisplay-variablefont_wght.ttf);
 }
 
 a {
@@ -182,6 +182,8 @@ margin-bottom: -0.3rem;
     border-radius: 20px;
     border: none;
     left: 43%;
+    text-align: center;
+    line-height: 4rem;
 }
 
 /* talekort styling */
@@ -228,6 +230,8 @@ width: 10rem;
 font-size: 2rem;
 border-radius: 20px;
 border: none;
+text-align: center;
+line-height: 3rem;
 
 }
 
