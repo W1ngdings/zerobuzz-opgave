@@ -299,3 +299,44 @@ button:hover {
 .kurv-h2 {
     font-size:20px;
 }
+
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 60%;
+    right: 20px; 
+    transform: translateY(-50%); 
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+#tilbud {
+    width: 100%;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#closePopup {
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.popup-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
