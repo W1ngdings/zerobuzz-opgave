@@ -1,2 +1,3 @@
 user-agent: *
 disallow: /
+sitemap: https://zerobuzzbrew.wingdings.dk/index.html/sitemap.xml
