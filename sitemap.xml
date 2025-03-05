@@ -8,8 +8,29 @@
 
 
 <url>
-  <loc>https://zerobussbrew.wingdings.dk/</loc>
-  <lastmod>2024-08-28T13:11:02+00:00</lastmod>
+  <loc>https://zerobuzzbrew.wingdings.dk/index.html</loc>
+  <lastmod>2025-03-05T10:15:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://zerobuzzbrew.wingdings.dk/add-to-cart.html</loc>
+  <lastmod>2025-03-05T10:15:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zerobuzzbrew.wingdings.dk/login.html</loc>
+  <lastmod>2025-03-05T10:15:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zerobuzzbrew.wingdings.dk/produkt-side.html</loc>
+  <lastmod>2025-03-05T10:15:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zerobuzzbrew.wingdings.dk/fejl-side.html</loc>
+  <lastmod>2025-03-05T10:15:56+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
