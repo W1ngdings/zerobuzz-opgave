@@ -111,7 +111,6 @@ h1{
 }
 
 .pack-options {
-    display: center;
     gap: 10px;
     margin: 20px 0;
     text-align: center;
@@ -131,7 +130,6 @@ h1{
 }
 
 .antal-options {
-    display: center;
     gap: 10px;
     margin: 10px 0;
     text-align: center;
@@ -396,24 +394,24 @@ margin-top: 20px;
 
 .footer-sektion{
 text-align: center;
+flex: 1;
 }
 
 .footer-sektion h1{
     font-size: 50px;
 }
 
-.footer-sektion p {
-    font-size: 16px;
+.footer-sektion h2 {
+    font-size: 23px;
     margin: 5px 0;
     font-family: bigshoulder;
 }
 
 .icon{
-    width: 60px;
+    width: 50px;
     height: auto;
     margin-top: 7px;
 }
-
 
 .social-icons img{
     width: 70px;    
