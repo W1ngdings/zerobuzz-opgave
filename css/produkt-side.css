@@ -18,6 +18,8 @@ body {
     background-color: #e6ecf3;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden;
+    max-width: 1440px;
 }
 
 .nav-header {
@@ -216,7 +218,7 @@ h3{
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(100%);
+    transform: translateX(30%);
 }
 
 .ingredient2{
@@ -231,7 +233,7 @@ h3{
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(100%);
+    transform: translateX(30%);
 }
 
 .ingredient3{
@@ -246,7 +248,7 @@ h3{
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(100%);
+    transform: translateX(30%);
 }
 
 .ingredient4{
@@ -261,7 +263,7 @@ h3{
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(100%);
+    transform: translateX(30%);
 }
 
 .ingredient1 img {
